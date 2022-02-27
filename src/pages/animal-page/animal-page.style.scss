@@ -1,0 +1,25 @@
+.AnimalPage {
+    .ant-carousel {
+        overflow: hidden;
+        .slick-slider,
+        .slick-list,
+        .slick-track,
+        .slick-slide,
+        .slick-slide > * {
+            height: 100%;
+            width: 100%;
+        }
+        .ant-image {
+            width: 100%;
+            height: 100%;
+            img {
+                width: 100%;
+                min-height: 100%;
+                height: auto;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

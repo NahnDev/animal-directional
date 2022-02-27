@@ -1,0 +1,38 @@
+.AdminPage {
+    // menu
+    .ant-menu {
+        border: none;
+    }
+    a {
+        background-color: inherit;
+        color: inherit;
+    }
+
+    .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+        background-color: inherit;
+        color: inherit;
+    }
+    .ant-menu-inline .ant-menu-item:after {
+        left: 0;
+        right: inherit;
+        border-right-color: inherit;
+    }
+
+    // table
+    .ant-table,
+    .ant-table-thead > tr > th {
+        background-color: inherit;
+        color: inherit;
+    }
+    .ant-table-tbody > tr > td {
+        border-bottom-width: 1px;
+        opacity: 0.5;
+    }
+    .ant-table-placeholder {
+        display: none;
+    }
+    .ant-table-cell-row-hover {
+        background-color: transparent !important;
+        background-blend-mode: overlay;
+    }
+}
